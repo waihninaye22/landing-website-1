@@ -1,0 +1,41 @@
+@import "tailwindcss";
+
+@theme {
+  /* colors  */
+
+  --color-primary : #7B2FF7;
+  --color-secondary : #5F1FD6;
+  --color-accent : #A66CFF;
+
+  --color-background : #F9F6FF;
+
+  --color-text-dark : #1E1E1E;
+  --color-text-light : #6B7280;
+
+  --color-border-light : #E9DDFD;
+
+  /* Radius  */
+
+  --radius-card : 1.5rem;
+  --radius-button : 999px;
+
+  /* SHADOWS */
+
+  --shadow-card: 0 10px 30px rgba(123, 47, 247, 0.15);
+}
+
+
+@layer components{
+  .container-custom{
+    @apply max-w-7xl m-auto px-6 py-3;
+  }
+  .nav-link{
+    @apply text-text-light hover:text-primary transition-colors font-medium
+  }
+  .primary-btn{
+    @apply bg-primary text-white px-6 py-2.5 rounded-button shadow-card hover:scale-105 transition-all cursor-pointer duration-300
+  }
+  .secondary-btn{
+    @apply bg-white text-primary border-primary border-1 px-6 py-2.5 rounded-button hover:bg-purple-50 transition-all cursor-pointer duration-300
+  }
+}

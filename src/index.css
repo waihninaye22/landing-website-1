@@ -27,15 +27,15 @@
 
 @layer components{
   .container-custom{
-    @apply max-w-7xl m-auto px-6 py-3;
+    @apply max-w-7xl m-auto px-4 md:px-6 py-3;
   }
   .nav-link{
-    @apply text-text-light hover:text-primary transition-colors font-medium
+    @apply text-text-light hover:text-primary transition-colors font-medium 
   }
   .primary-btn{
-    @apply bg-primary text-white px-6 py-2.5 rounded-button shadow-card hover:scale-105 transition-all cursor-pointer duration-300
+    @apply bg-primary text-white px-4 py-2 md:px-7 md:py-2.5 rounded-button shadow-card hover:scale-105 transition-all cursor-pointer duration-300 text-sm md:text-base
   }
   .secondary-btn{
-    @apply bg-white text-primary border-primary border-1 px-6 py-2.5 rounded-button hover:bg-purple-50 transition-all cursor-pointer duration-300
+    @apply bg-amber-200 text-primary border-primary border-1 px-4 py-2 md:px-7 md:py-2.5 rounded-button hover:bg-purple-50 transition-all cursor-pointer duration-300 text-sm md:text-base
   }
 }

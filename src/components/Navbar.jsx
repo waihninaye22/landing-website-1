@@ -1,5 +1,6 @@
 import { HiMenu , HiX} from "react-icons/hi";
 import { useState } from "react";
+// import Hero from "./Hero";
 
 function Navbar (){
 
@@ -49,7 +50,7 @@ function Navbar (){
                                   duration-300
                                   ${isOpen ? "translate-x-0" : "translate-x-full"}`}>
 
-                    <button className="absolute top-0 right-0 bg-primary px-4 py-4 text-white text-lg rounded-bl-4xl rounded-tl-4xl" 
+                    <button className="absolute top-0 right-0 bg-primary px-4 py-4 text-white text-lg rounded-bl-4xl rounded-tl-4xl mt-1.5" 
                             onClick={()=>setIsOpen(false)}>
                                 <HiX/>
                     </button>

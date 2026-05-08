@@ -20,7 +20,7 @@ function Navbar (){
                 </div>
 
                 <div className="hidden md:flex gap-6">
-                    <a href="#" className="nav-link border-b-2 border-primary">Home</a>
+                    <a href="#home" className="nav-link border-b-2 border-primary">Home</a>
                     <a href="#" className="nav-link ">Teachers</a>
                     <a href="#" className="nav-link ">Offers</a>
                     <a href="#" className="nav-link ">Contact</a>

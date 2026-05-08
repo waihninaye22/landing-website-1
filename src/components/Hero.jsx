@@ -2,11 +2,11 @@
 
 function Hero(){
     return (
-        <section className="w-full">
+        <section id="home" className="w-full">
             <div className="container-custom  grid grid-cols-1 lg:grid-cols-10">
 
                 {/* left side  */}
-                <div className=" md:mt-10 lg:mt-20 lg:col-span-6 ">
+                <div className=" md:mt-10  lg:col-span-6 ">
                     <h1 className="text-5xl sm:text-7xl">Develop your <br /> 
                         skills in a new <br />
                         and unique way

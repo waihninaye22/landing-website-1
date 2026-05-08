@@ -13,7 +13,7 @@ function Navbar (){
 
     return (
 
-        <nav className="w-full border-b-1 border-be-violet-100 bg-background">
+        <nav className="w-full border-b-1 border-be-violet-100 bg-background fixed">
             <div className="container-custom flex items-center justify-between">
                 <div className="text-4xl tracking-tight font-bold">
                     LOOO

@@ -2,7 +2,7 @@
 
 function Hero(){
     return (
-        <section id="home" className="w-full">
+        <section id="home" className="w-full py-20">
             <div className="container-custom  grid grid-cols-1 lg:grid-cols-10">
 
                 {/* left side  */}

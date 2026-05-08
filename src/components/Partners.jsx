@@ -11,10 +11,10 @@ function Partners(){
     ]
     return(
         <section className="w-full bg-primary mt-10 text-white">
-            <div className="container-custom flex flex-wrap items-center justify-evenly  md:text-xl">
+            <div className="container-custom flex flex-wrap items-center justify-evenly text-sm sm:text-lg md:text-xl">
                 {brands.map((brand , index) => 
                    (
-                     <div key={index}>
+                     <div key={index} className="opacity-80">
                         {brand.icon} <span>{brand.name}</span>
                     </div>
                     )

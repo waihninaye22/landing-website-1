@@ -8,7 +8,7 @@ function Search (){
                 <div className="py-4 flex flex-col md:flex-row justify-center items-center">
                     <input type="text" placeholder="Search for over 50+ courses" 
                     className="rounded-button w-52 bg-amber-200 text-sm py-2 px-4 lg:text-base lg:w-100" />
-                    <button className="primary-btn ml-3 mt-3 md:mt-0">Search</button>
+                    <button className="primary-btn ml-3 mt-3 md:mt-0 ">Search</button>
                 </div>
             </div>
         </section>

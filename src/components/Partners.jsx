@@ -10,7 +10,7 @@ function Partners(){
         { name : "Amazon" , icon : <FaAmazon/> }
     ]
     return(
-        <section className="w-full bg-primary mt-10 text-white">
+        <section className="w-full bg-primary text-white">
             <div className="container-custom flex flex-wrap items-center justify-evenly text-sm sm:text-lg md:text-xl">
                 {brands.map((brand , index) => 
                    (

@@ -2,6 +2,7 @@ import Navbar from "./components/Navbar"
 import Hero from "./components/Hero"
 import Partners from "./components/Partners"
 import Search from "./components/Search"
+import Offers from "./components/Offers"
 
 function App() {
 
@@ -12,6 +13,7 @@ function App() {
       <Hero/>
       <Partners/>
       <Search/>
+      <Offers/>
     </>
   )
 }
